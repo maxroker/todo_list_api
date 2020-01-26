@@ -1,9 +1,9 @@
-# todo_list-api
+# todo-wonder-list-api
 
 Base URL
 
 ```
-https://todo-app-back.herokuapp.com
+https://todo-wonder-list-api.herokuapp.com
 ```
 
 *(secure)* - authentication required
@@ -35,7 +35,7 @@ Body
 ```
 Request example
 ```javascript
-fetch('https://todo-app-back.herokuapp.com/login', {
+fetch('https://todo-wonder-list-api.herokuapp.com/login', {
   method: 'POST',
   body:
     JSON.stringify({
@@ -67,7 +67,7 @@ URL:
 ```
 Request example:
 ```javascript
-fetch('https://todo-app-back.herokuapp.com/me', {
+fetch('https://todo-wonder-list-api.herokuapp.com/me', {
   method: 'GET',
   headers: {
     'Authorization': '****token***'
@@ -108,7 +108,7 @@ createDate, completed - optional
 
 Request example:
 ```javascript
-fetch('https://todo-app-back.herokuapp.com/todos', {
+fetch('https://todo-wonder-list-api.herokuapp.com/todos', {
   method: 'POST',
   body:
     JSON.stringify({
@@ -205,7 +205,7 @@ text, completed - optional
 
 Request example:
 ```javascript
-fetch('https://todo-app-back.herokuapp.com/todos/LNlwqelfn1324w2341', {
+fetch('https://todo-wonder-list-api.herokuapp.com/todos/LNlwqelfn1324w2341', {
   method: 'PUT',
   body:
     JSON.stringify({
@@ -243,7 +243,7 @@ URL:
 
 Request example:
 ```javascript
-fetch('https://todo-app-back.herokuapp.com/todos/LNlwqelfn1324w2341', {
+fetch('https://todo-wonder-list-api.herokuapp.com/todos/LNlwqelfn1324w2341', {
   method: 'DELETE',
   headers: {
     'Content-Type': 'application/json',
